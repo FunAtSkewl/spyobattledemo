@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <p id="e"></p>
+    <div id="game">      
+      <canvas id="canv"></canvas>
+
+      <div id="sidebar">
+
+        <ol id="orderlist">
+
+        </ol>
+
+        <div id="turnbtns">
+          <button class="turnbtn" id="move">Move</button>
+
+          <div class="optionsub" id="movesub">
+            <button class="optionbtn" id="m2"> Move 2</button>
+            <button class="optionbtn" id="m1qatk"> Move 1 + Quick ATK</button>
+          </div>
+
+          <button class="turnbtn" id="atk">Attack</button>
+
+          <div class="optionsub" id="atksub">
+            <button class="optionbtn" id="heavy"> Heavy ATK (cannot move next turn)</button>
+            <button class="optionbtn" id="normal"> Normal ATK</button>
+          </div>
+
+          <button class="turnbtn" id="pass">Pass</button>    
+
+        </div>
+      </div>
+
+    </div>
+    <script type="module" src="backend.js"></script>
+    <script src="p5.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

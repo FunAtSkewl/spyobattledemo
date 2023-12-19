@@ -1,0 +1,33 @@
+#sidebar{
+  display: inline-block;
+  background-color: aqua;
+  padding: 20px;
+  vertical-align: top;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+
+}
+
+canvas{
+  display: inline-block;
+}
+
+.turnbtn{
+  display: block;
+  font-size: 30px;
+}
+
+.optionsub{
+  display: none;
+  background-color: darkslateblue;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 15px;
+}
+
+.optionbtn{
+  font-size: 20px;
+  display: block;
+  margin: 4px;
+}
